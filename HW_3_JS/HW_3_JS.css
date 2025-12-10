@@ -9,32 +9,9 @@ html, body {
     height: 100%;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul, ol {
-    list-style: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-button {
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.users-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.users-box{
+    display: inline-grid;
+    width: 35%;
+    height: 20%;
+    margin-left: 10%;
 }
