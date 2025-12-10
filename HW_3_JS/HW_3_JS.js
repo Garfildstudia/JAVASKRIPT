@@ -251,7 +251,6 @@ document.write(`
     
 </div>
 
-
 `);
 
 }
